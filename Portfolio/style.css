@@ -32,7 +32,9 @@
     --fs-body: 1.125rem;
   }
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   background: var(--clr-light);
   color: var(var(--clr-dark));
